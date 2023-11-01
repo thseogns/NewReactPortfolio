@@ -1,0 +1,15 @@
+/** @format */
+
+.scroll {
+  overflow: auto;
+  height: 50%;
+}
+.addMemoCover {
+  height: 50%;
+}
+.memoCover {
+  padding-top: 20px;
+  width: 90%;
+  margin: auto;
+  height: 93.3%;
+}

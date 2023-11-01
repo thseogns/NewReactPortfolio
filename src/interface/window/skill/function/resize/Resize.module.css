@@ -1,0 +1,48 @@
+/** @format */
+.boxCover {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.relative {
+  position: relative;
+  border: 1px solid black;
+}
+.bottom {
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: rgb(158, 82, 239);
+  cursor: row-resize;
+  bottom: 0;
+}
+.top {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 3px;
+  background-color: rgb(158, 82, 239);
+  cursor: row-resize;
+}
+.left {
+  position: absolute;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background-color: rgb(158, 82, 239);
+  cursor: col-resize;
+}
+.right {
+  position: absolute;
+  right: 0;
+  width: 3px;
+  height: 100%;
+  background-color: rgb(158, 82, 239);
+  cursor: col-resize;
+}
+.box {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}

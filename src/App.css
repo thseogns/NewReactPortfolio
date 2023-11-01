@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.scroll {
+  -ms-overflow-style: none;
+}
+.footer {
+  text-align: center;
+  padding: 15px;
+}
+
+.skillBackground {
+  background-color: rgb(87, 76, 76);
+  margin: 0;
+  font-size: 28px;
+  width: 100%;
+}
+.slick-slider {
+  height: 80%;
+}
+.slick-track {
+}
+.slick-arrow {
+  width: 80px;
+  height: 80px;
+  font-size: 20px;
+  z-index: 20;
+}
+.slick-next {
+  z-index: 99;
+  top: calc(50% - 80px / 2);
+  right: -80px;
+}
+.slick-prev {
+  top: calc(50% - 80px / 2);
+
+  left: -80px;
+}
+.slick-list {
+  margin: 0 15px;
+  height: 100%;
+}
+.slick-prev::before,
+.slick-next:before {
+  content: "";
+  background-image: url("../public/img/project_image/arrow.png");
+  background-size: cover;
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 50px;
+  background-repeat: no-repeat;
+}
+
+.slick-prev::before {
+  content: "";
+  transform: rotate(180deg);
+}

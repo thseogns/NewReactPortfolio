@@ -1,0 +1,12 @@
+.weatherInfo {
+  background-color: rgba(86, 159, 163, 0.6);
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  border: none;
+  box-shadow: 2px 2px 2px rgb(170, 170, 170);
+}
+.textColor {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}

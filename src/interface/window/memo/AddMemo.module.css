@@ -1,0 +1,13 @@
+/** @format */
+
+.control {
+  display: flex;
+  flex-direction: column;
+}
+.flex {
+  display: flex;
+}
+.flexBtween {
+  display: flex;
+  justify-content: space-between;
+}

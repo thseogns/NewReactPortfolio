@@ -1,0 +1,32 @@
+.cover {
+  position: absolute;
+  left: calc(50% - 1132px / 2);
+  top: calc(50% - 669px / 2);
+  padding: 200px;
+  background-color: transparent;
+  border-radius: 15px;
+  z-index: 3;
+  overflow: hidden;
+}
+.header {
+  background-color: rgb(170, 252, 255);
+  position: absolute;
+  height: 30px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+.pageName {
+  margin-top: 6px;
+  margin-left: 15px;
+}
+.closeButton {
+  color: rgb(54, 0, 250);
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: 6px;
+}

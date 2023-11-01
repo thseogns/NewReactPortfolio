@@ -1,0 +1,61 @@
+.infoFlex {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+  height: 100%;
+  padding: 50px;
+}
+.pictureCover {
+  min-width: 400px;
+  margin: auto;
+}
+.picture {
+  width: 400px;
+  height: 400px;
+  min-width: 400px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.margin {
+  margin-right: 15px;
+}
+.infoBoxCover {
+  width: 50%;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.infoBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.text {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 25px;
+}
+.linkBox {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid black;
+}
+.linkBox :first-child {
+  border-right: 1px solid black;
+}
+.link {
+  display: block;
+
+  padding: 20px;
+  width: 50%;
+  text-align: center;
+}

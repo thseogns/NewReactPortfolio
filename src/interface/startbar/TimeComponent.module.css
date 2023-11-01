@@ -1,0 +1,26 @@
+/** @format */
+
+.todayCover {
+  display: flex;
+  flex-direction: column;
+
+  margin: auto 0;
+  margin-right: 60px;
+}
+.timeCover {
+  justify-content: center;
+  display: flex;
+  gap: 5px;
+  font-size: 11px;
+  color: black;
+}
+.dateCover {
+  font-size: 11px;
+  color: black;
+}
+@media (min-width: 2560px) {
+  .timeCover,
+  .dateCover {
+    font-size: 17px;
+  }
+}

@@ -1,0 +1,14 @@
+.cover {
+  width: 90%;
+  margin: auto;
+}
+.text_bottom {
+  margin-bottom: 10px;
+}
+.skill_flex {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  grid-template-rows: repeat(3, minmax(200px, auto));
+  gap: 32px;
+}
