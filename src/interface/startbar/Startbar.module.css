@@ -49,10 +49,11 @@
   user-select: none;
 
   padding-left: 30px;
-  width: 300px;
+  width: 500px;
   margin-top: 3px;
-  line-height: 2;
+  line-height: 2.4;
   background-color: rgb(202, 202, 202);
+  font-size: 18px;
 }
 .startMenuCover .search svg {
   width: 70%;
