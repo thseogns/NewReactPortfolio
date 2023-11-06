@@ -35,9 +35,24 @@
   background-size: cover;
 }
 .startMenuCover .search {
+  width: 300px;
   height: 80%;
   margin: auto;
   margin-left: 20px;
+  text-shadow: 1px 1px 1px black;
+  display: flex;
+}
+.searchText {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  padding-left: 30px;
+  width: 300px;
+  margin-top: 3px;
+  line-height: 2;
+  background-color: rgb(202, 202, 202);
 }
 .startMenuCover .search svg {
   width: 70%;

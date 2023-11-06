@@ -11,14 +11,15 @@ import Explanation from "./Explanation";
 const Startbar = () => {
   const [display, setDisplay] = React.useState(false);
   const dispatch = useDispatch();
-
+  const handleToggleInformation = () => {
+    setDisplay(!display);
+  };
   const handleChangeBackground = () => {
     let randomNumber = Math.random();
     randomNumber = randomNumber * 3;
     randomNumber = Math.floor(randomNumber);
     console.log(randomNumber, "랜덤넘버");
     dispatch(number(randomNumber));
-    setDisplay(!display);
   };
   return (
     <div className={styles.startBar}>
@@ -27,7 +28,7 @@ const Startbar = () => {
         <div className={styles.buttonCover}>
           <button
             className={styles.startbutton}
-            onClick={handleChangeBackground}
+            onClick={handleToggleInformation}
           >
             <img
               src={`${process.env.PUBLIC_URL}/img/background_image/windows-icon.png`}
@@ -44,8 +45,9 @@ const Startbar = () => {
             </span>
           </div>
         </div>
-        <div className={styles.search}>
+        <div className={styles.search} onClick={handleChangeBackground}>
           <AiOutlineSearch />
+          <div className={styles.searchText}>chage background</div>
         </div>
       </div>
 
