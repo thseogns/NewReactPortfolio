@@ -9,7 +9,7 @@ import { useDispatch } from "react-redux";
 import { number } from "../../features/windowSlice";
 import Explanation from "./Explanation";
 const Startbar = () => {
-  const [display, setDisplay] = React.useState(true);
+  const [display, setDisplay] = React.useState(false);
   const dispatch = useDispatch();
 
   const handleChangeBackground = () => {
