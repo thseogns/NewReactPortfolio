@@ -6,8 +6,6 @@ import DetailInfo from "./DetailInfo";
 import { MdOutlineMedicalInformation } from "react-icons/md";
 import styles from "./InfoBox.module.css";
 const InfoBox = () => {
-  const linksNames = ["자기소개서", "github"];
-
   return (
     <div>
       {" "}
@@ -42,7 +40,7 @@ const InfoBox = () => {
           <div className={styles.linkBox}>
             <a
               className={styles.link}
-              href="https://github.com/thseogns/next13project"
+              href="https://github.com/thseogns/NewReactPortfolio"
             >
               Github 주소
             </a>

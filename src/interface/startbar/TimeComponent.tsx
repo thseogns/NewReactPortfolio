@@ -47,7 +47,7 @@ const TimeComponent = () => {
       hours = 12;
     }
     setHourOfTime(hours);
-    console.log("데이트값", date);
+
     // if (hours > 11) {
     //   document.getElementById("mf").innerHTML = "오후";
     // } else {

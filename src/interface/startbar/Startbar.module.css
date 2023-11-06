@@ -48,6 +48,7 @@
 .curser {
   transform: scale(3) rotate(245deg);
 }
+
 .clickCover {
   position: absolute;
 
@@ -56,21 +57,23 @@
   animation-iteration-count: infinite;
 }
 .clickCover span {
-  position: relative;
+  width: 150px;
+  top: -50px;
   left: 50px;
+  position: absolute;
 }
 
 @keyframes moving {
   0% {
-    left: 50px;
+    left: 60px;
     bottom: 93px;
   }
   50% {
-    left: 40px;
+    left: 50px;
     bottom: 80px;
   }
   100% {
-    left: 50px;
+    left: 60px;
     bottom: 93px;
   }
 }

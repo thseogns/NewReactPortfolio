@@ -1,0 +1,11 @@
+.explanation {
+  position: absolute;
+  top: -400px;
+  left: 290px;
+  padding: 20px;
+  border-radius: 13px;
+  z-index: 99;
+  font-size: 12px;
+  text-shadow: 1px 1px 1px black;
+  background-color: rgb(78, 159, 184);
+}

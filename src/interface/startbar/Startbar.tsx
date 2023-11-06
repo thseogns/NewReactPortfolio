@@ -7,7 +7,9 @@ import { FcCursor } from "react-icons/fc";
 import TimeComponent from "./TimeComponent";
 import { useDispatch } from "react-redux";
 import { number } from "../../features/windowSlice";
+import Explanation from "./Explanation";
 const Startbar = () => {
+  const [display, setDisplay] = React.useState(true);
   const dispatch = useDispatch();
 
   const handleChangeBackground = () => {
@@ -16,9 +18,11 @@ const Startbar = () => {
     randomNumber = Math.floor(randomNumber);
     console.log(randomNumber, "랜덤넘버");
     dispatch(number(randomNumber));
+    setDisplay(!display);
   };
   return (
     <div className={styles.startBar}>
+      <Explanation display={display} />
       <div className={styles.startMenuCover}>
         <div className={styles.buttonCover}>
           <button
@@ -29,12 +33,15 @@ const Startbar = () => {
               src={`${process.env.PUBLIC_URL}/img/background_image/windows-icon.png`}
               alt="시작버튼"
             />
-          </button>
+          </button>{" "}
           <div className={styles.clickCover}>
             <div className={styles.curser}>
               <FcCursor />
             </div>
-            <span> Click</span>
+            <span>
+              {" "}
+              Click <br /> (포트폴리오 정보)
+            </span>
           </div>
         </div>
         <div className={styles.search}>
