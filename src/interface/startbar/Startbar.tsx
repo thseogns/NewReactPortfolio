@@ -47,7 +47,7 @@ const Startbar = () => {
         </div>
         <div className={styles.search} onClick={handleChangeBackground}>
           <AiOutlineSearch />
-          <div className={styles.searchText}>chage background</div>
+          <div className={styles.searchText}>Change the background</div>
         </div>
       </div>
 
