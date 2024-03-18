@@ -1,9 +1,10 @@
+/** @format */
+
 import React from "react";
 import styles from "./File.module.css";
 import { Link } from "react-router-dom";
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import { pageName } from "../../features/windowSlice";
-import Window from "../window/Window";
 
 const File = () => {
   const dispatch = useDispatch();
@@ -23,7 +24,7 @@ const File = () => {
     },
   ];
 
-  const handleClick: React.MouseEventHandler<HTMLLIElement> = (e) => {
+  const clickHandler: React.MouseEventHandler<HTMLLIElement> = (e) => {
     const patchName = e.currentTarget.getAttribute("data-name");
     if (patchName !== null && patchName !== "휴지통") {
       dispatch(pageName(patchName));
@@ -37,7 +38,7 @@ const File = () => {
             key={name.name}
             className={styles.folder}
             data-name={name.name}
-            onClick={handleClick}
+            onClick={clickHandler}
           >
             <div>
               <Link to={`${name.path}`} target={name.target && name.target}>

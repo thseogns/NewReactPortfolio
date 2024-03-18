@@ -5,7 +5,7 @@ import Slick from "./Slick";
 import styles from "./ProjectItems.module.css";
 
 import { useDispatch } from "react-redux";
-import { hover } from "../../../features/displaySlice";
+import { hover } from "../../features/displaySlice";
 
 interface itemsProps {
   item: string;
@@ -21,7 +21,7 @@ const SliderItem = styled.div`
   }
 `;
 
-const items: itemsProps[] = [ 
+const items: itemsProps[] = [
   {
     item: `${process.env.PUBLIC_URL}/img/project_image/OpenTable.png`,
     href: "https://opentableclone.netlify.app/",

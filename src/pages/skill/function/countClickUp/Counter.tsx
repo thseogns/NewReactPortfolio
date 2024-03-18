@@ -2,9 +2,9 @@
 
 import React from "react";
 import styles from "./Counter.module.css";
-import type { RootState } from "../../../../../app/store";
+import type { RootState } from "../../../../app/store";
 import { useSelector, useDispatch } from "react-redux";
-import { decrement, increment } from "../../../../../features/counterSlice";
+import { decrement, increment } from "../../../../features/counterSlice";
 
 export function Counter() {
   const count = useSelector((state: RootState) => state.counter.value);

@@ -1,9 +1,9 @@
 /** @format */
 
 import React from "react";
-import type { RootState } from "../../../../../app/store";
+import type { RootState } from "../../../../app/store";
 import { useSelector, useDispatch } from "react-redux";
-import { login } from "../../../../../features/loginSlice";
+import { login } from "../../../../features/loginSlice";
 import styles from "./Login.module.css";
 interface LoginProps {
   onSubmit?: (event: React.FormEvent<HTMLFormElement>) => void;

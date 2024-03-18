@@ -1,7 +1,9 @@
+/** @format */
+
 import { Link } from "react-router-dom";
 import type { RootState } from "../../app/store";
 import { useSelector } from "react-redux";
-import WeatherBoxCover from "./weather/WeatherBoxCover";
+import WeatherBoxCover from "./WeatherBoxCover";
 import { AiOutlineClose } from "react-icons/ai";
 import styles from "./WeatherAppPage.module.css";
 
@@ -14,7 +16,6 @@ const WeatherAppPage = () => {
       <div className={styles.header}>
         <div className={styles.pageName}>{windowPageName}</div>
         <Link to="/" className={styles.closeButton}>
-          {" "}
           <AiOutlineClose />
         </Link>
       </div>

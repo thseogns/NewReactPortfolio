@@ -8,8 +8,8 @@ import SkillCover from "./SkillCover";
 import { Counter } from "./function/countClickUp/Counter";
 import CountUp from "./function/countHoverUp/CountUp";
 import DragAndDrop from "./function/drag/DragAndDrop";
-import ResizeDiagonal from "./function/resize/ResizeDiagonal";
-import Resize from "./function/resize/Resize";
+import ResizeDiagonal from "../../interface/window/skill/function/resize/ResizeDiagonal";
+import Resize from "../../interface/window/skill/function/resize/Resize";
 import Login from "./function/login/Login";
 import DropDown from "./function/dropDown/DropDown";
 

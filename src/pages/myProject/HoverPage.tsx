@@ -2,7 +2,7 @@
 
 import React from "react";
 import project from "./explanation";
-import type { RootState } from "../../../app/store";
+import type { RootState } from "../../app/store";
 import styles from "./HoverPage.module.css";
 import { useSelector } from "react-redux";
 const HoverPage = () => {
