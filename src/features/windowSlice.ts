@@ -39,7 +39,6 @@ export const WindowSlice = createSlice({
   },
 });
 
-// Action creators are generated for each case reducer function
 export const { toggle, number, windowDisplay, pageName } = WindowSlice.actions;
 
 export default WindowSlice.reducer;

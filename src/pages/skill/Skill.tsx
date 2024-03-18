@@ -1,27 +1,18 @@
 /** @format */
 
 import React from "react";
-// import { Counter } from "./function/count/Counter";
 import styles from "./Skill.module.css";
-// import Resize from "./function/resize/Resize";
+
 import SkillCover from "./SkillCover";
 import { Counter } from "./function/countClickUp/Counter";
 import CountUp from "./function/countHoverUp/CountUp";
 import DragAndDrop from "./function/drag/DragAndDrop";
-import ResizeDiagonal from "../../interface/window/skill/function/resize/ResizeDiagonal";
-import Resize from "../../interface/window/skill/function/resize/Resize";
+import ResizeDiagonal from "./function/resize/ResizeDiagonal";
+import Resize from "./function/resize/Resize";
 import Login from "./function/login/Login";
 import DropDown from "./function/dropDown/DropDown";
 
 import SkillStack from "./SkillStack";
-
-// import ResizeDiagonal from "./function/resize/ResizeDiagonal";
-// import DragAndDrop from "./function/drag/DragAndDrop";
-// import DropDown from "./function/dropDown/DropDown";
-// import SkillSize from "./SkillSize";
-// import Scroll from "./function/scroll/Scroll";
-// import Login from "./function/login/Login";
-// import CountUp from "./function/countUp/CountUp";
 
 const Skill = () => {
   const skillNames = [
@@ -61,10 +52,6 @@ const Skill = () => {
             <div>{skillNames[4]}</div>
             <DropDown />
           </SkillCover>
-          {/* <SkillCover>
-        <div>{skillNames[5]}</div>
-        <Scroll />
-      </SkillCover> */}
           <SkillCover>
             <div>{skillNames[6]}</div>
             <Login />

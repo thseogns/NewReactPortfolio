@@ -36,7 +36,6 @@ export const listSlice = createSlice({
   },
 });
 
-// Action creators are generated for each case reducer function
 export const { list, toggle, route, hover } = listSlice.actions;
 
 export default listSlice.reducer;
