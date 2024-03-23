@@ -49,7 +49,7 @@ const items: itemsProps[] = [
   },
   {
     item: `${process.env.PUBLIC_URL}/img/project_image/air.png`,
-    href: "https://imaginative-dieffenbachia-fa52f5.netlify.app/",
+    href: "https://silver-kelpie-5dd0f4.netlify.app/",
     name: "air",
   },
   {
