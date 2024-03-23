@@ -22,7 +22,7 @@ const project = [  {
   },
   {
     name: "air",
-    expl: `Airbnb사이트를 본따 만든 첫 REACT 홈페이지입니다. 로그인 페이지 제작중에 있습니다.`,
+    expl: `Airbnb사이트를 본따 만든 REACT페이지 입니다. 현재 제작중에 있습니다.`,
   },
   {
     name: "frz_title",
