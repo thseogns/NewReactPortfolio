@@ -29,7 +29,7 @@ const items: itemsProps[] = [
   },
   {
     item: `${process.env.PUBLIC_URL}/img/project_image/Netfle.png`,
-    href: "https://thseogns-netflix.netlify.app",
+    href: "https://sondaehoonflix.netlify.app/",
     name: "Netfle",
   },
   {
