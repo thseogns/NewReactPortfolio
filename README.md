@@ -22,7 +22,8 @@ router를 사용해 폴더기능을 구현하였으며 Link로 되어있는 폴�
 
 4. 프로젝트 : 현재까지 제작한 사이트들 중 기술적이거나 의미있다고 생각하는 웹사이트를 출력한 페이지입니다. (redux의 전역상태관리로 마우스오버시 해당text값과 일치하면 설명이 출력되게 하였습니다. )  ![image](https://github.com/thseogns/NewReactPortfolio/assets/99688960/62ad1b65-7fe5-4220-bf75-8cd72817462a)
 
-5. 숫자기록 : 숫자이름을 등록하고 숫자를 카운트 할 수 있는 페이지 입니다. 로컬스토리지를 활용해 기록이 남게 하였습니다.  ![image](https://github.com/thseogns/NewReactPortfolio/assets/99688960/522ef208-76a2-4339-9882-a0bd9ad7f4bf)  
+5. 숫자기록 : 숫자이름을 등록하고 숫자를 카운트 할 수 있는 페이지 입니다. 로컬스토리지를 활용해 기록이 남게 하였습니다.  ![image](https://github.com/thseogns/NewReactPortfolio/assets/99688960/21e187b3-4742-4ecb-9931-e5bd1c63c9f8)  
+
 
 6. 날씨 : 현재 날씨를 지역별로 알 수 있게 만든 페이지입니다. 앱의 느낌을 내려고 다른 웹페이지 형식과는 다르게 제작하였습니다.  ![image](https://github.com/thseogns/NewReactPortfolio/assets/99688960/78b9e0e5-91af-49c3-b3f1-addf74ceb90c)  
 
