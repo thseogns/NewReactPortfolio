@@ -8,10 +8,8 @@ import styles from "./InfoBox.module.css";
 const InfoBox = () => {
   return (
     <div>
-      {" "}
       <h2>
         <span className={styles.margin}>
-          {" "}
           <MdOutlineMedicalInformation />
         </span>
         MyInformation
@@ -20,7 +18,7 @@ const InfoBox = () => {
         <div className={styles.pictureCover}>
           <div className={styles.picture}>
             <img
-              src={`${process.env.PUBLIC_URL}/img/picture/picture.jpg`}
+              src={`${process.env.PUBLIC_URL}/img/picture/selfImage.jpg`}
               alt=""
             />
           </div>
