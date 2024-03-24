@@ -39,9 +39,9 @@ const InfoBox = () => {
             </a>
             <a
               className={styles.link}
-              href={`${process.env.PUBLIC_URL}/personal/손대훈 입사지원서.pdf`}
+              href={`${process.env.PUBLIC_URL}/personal/손대훈의 포트폴리오.pdf`}
             >
-              입사 지원서
+              포트폴리오
             </a>
           </div>
         </div>
