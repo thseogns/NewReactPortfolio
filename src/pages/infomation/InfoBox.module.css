@@ -67,6 +67,18 @@
     margin: auto;
     margin-bottom: 30px;
   }
+  .pictureCover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+    margin-top: 20px;
+  }
+  .picture {
+    width: 300px;
+    height: 300px;
+    min-width: 200px;
+  }
   .infoBoxCover {
     margin-top: 20px;
     width: 100%;
