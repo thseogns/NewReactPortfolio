@@ -25,6 +25,9 @@
   }
 }
 @media (max-width: 520px) {
+  .todayCover {
+    margin-right: 10px;
+  }
   .timeCover {
     font-size: 0.5rem;
   }
