@@ -9,3 +9,8 @@
   text-shadow: 1px 1px 1px black;
   background-color: rgb(78, 159, 184);
 }
+@media (max-width: 520px) {
+  .explanation {
+    display: none !important ;
+  }
+}

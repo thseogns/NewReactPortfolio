@@ -24,3 +24,11 @@
     font-size: 17px;
   }
 }
+@media (max-width: 520px) {
+  .timeCover {
+    font-size: 0.5rem;
+  }
+  .dateCover {
+    font-size: 0.5rem;
+  }
+}

@@ -109,3 +109,14 @@
     }
   }
 }
+@media (max-width: 520px) {
+  .startBar {
+    height: 30px;
+  }
+  .clickCover {
+    display: none;
+  }
+  .searchText {
+    font-size: 0.5rem;
+  }
+}

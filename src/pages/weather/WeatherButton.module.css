@@ -20,3 +20,16 @@
   border: 1px solid white;
   margin-left: 15px;
 }
+@media (max-width: 520px) {
+  .weatherInfo {
+    padding: 50px;
+  }
+  .buttonStyle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+  }
+  .buttonStyleCity {
+    margin-left: 0;
+  }
+}

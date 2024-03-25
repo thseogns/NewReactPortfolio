@@ -3,3 +3,8 @@
 
   margin: auto;
 }
+@media (max-width: 520px) {
+  .cover {
+    width: 68%;
+  }
+}

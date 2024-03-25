@@ -31,28 +31,26 @@ const File = () => {
     }
   };
   return (
-    <div>
-      <ul className={styles.position}>
-        {fileName.map((name) => (
-          <li
-            key={name.name}
-            className={styles.folder}
-            data-name={name.name}
-            onClick={clickHandler}
-          >
-            <div>
-              <Link to={`${name.path}`} target={name.target && name.target}>
-                <img
-                  src={`${process.env.PUBLIC_URL}/img/folder_image/${name.img}.png`}
-                  alt="이미지"
-                ></img>
-                <div>{name.name}</div>
-              </Link>
-            </div>
-          </li>
-        ))}
-      </ul>
-    </div>
+    <ul className={styles.position}>
+      {fileName.map((name) => (
+        <li
+          key={name.name}
+          className={styles.folder}
+          data-name={name.name}
+          onClick={clickHandler}
+        >
+          <div>
+            <Link to={`${name.path}`} target={name.target && name.target}>
+              <img
+                src={`${process.env.PUBLIC_URL}/img/folder_image/${name.img}.png`}
+                alt="이미지"
+              ></img>
+              <div>{name.name}</div>
+            </Link>
+          </div>
+        </li>
+      ))}
+    </ul>
   );
 };
 

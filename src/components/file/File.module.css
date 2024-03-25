@@ -30,7 +30,7 @@
 @media (max-width: 1920px) {
   .position {
     grid-auto-flow: column;
-    grid-template-columns: 1fr 1fr;
+
     grid-template-rows: 1fr 1fr 1fr 1fr;
   }
   .position a {
@@ -40,5 +40,21 @@
 @media (min-width: 1921px) {
   .position {
     width: 3%;
+  }
+}
+@media (max-width: 520px) {
+  .position {
+    width: 100%;
+    margin: 0;
+    grid-template-rows: 1fr 1fr;
+  }
+  .position li {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .position a {
+    width: 50px;
   }
 }

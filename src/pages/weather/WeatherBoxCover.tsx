@@ -52,7 +52,7 @@ const WeatherBoxCover = () => {
         className={styles.weatherImage}
         src={`${process.env.PUBLIC_URL}/img/weather_image/sky.jpg`}
         alt="sky"
-      />{" "}
+      />
       <div className={styles.weatherButtons}>
         {loading !== true ? <WeatherBox weather={weather} /> : <MoonLoader />}
         <WeatherButton cities={cities} setCity={setCity} selectedCity={city} />

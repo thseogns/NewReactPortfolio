@@ -17,3 +17,9 @@
     width: 85%;
   }
 }
+@media (max-width: 520px) {
+  .window {
+    width: 100%;
+    position: relative;
+  }
+}

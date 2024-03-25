@@ -30,3 +30,11 @@
   right: 0;
   top: 6px;
 }
+@media (max-width: 520px) {
+  .cover {
+    position: relative;
+    left: 0;
+    top: 0;
+    padding: 0;
+  }
+}
